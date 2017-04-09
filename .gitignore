@@ -31,3 +31,11 @@
 
 # "temporary" build files
 /target
+
+#buid folders
+/build
+/.gradle
+/.idea
+
+#mac diabolic file
+.DS_Store
