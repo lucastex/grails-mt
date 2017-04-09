@@ -4,12 +4,14 @@ import grails.gorm.MultiTenant
 
 class Show implements MultiTenant<Show> {
 
-    Long tenantId
+    String tenantId
 
     String city
     Double price
     Date when
 
     static constraints = {
+        table 'show_event'
+        when column: 'event_date'
     }
 }
